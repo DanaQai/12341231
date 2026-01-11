@@ -1,0 +1,8 @@
+# Elves (Эльфы)
+# +20% скорость атаки, -5% урона, -0.5 здоровья
+
+attribute @s minecraft:generic.attack_speed base set 6.0
+attribute @s minecraft:generic.attack_damage base set 3.8
+attribute @s minecraft:generic.max_health base set 19.0
+
+effect give @s minecraft:speed 2 0 true
