@@ -1,0 +1,6 @@
+# Undead (Нежить)
+# Лечит 0.5 HP при ударе, слепота на солнце
+
+execute if time query daytime matches 12000..23999 run effect give @s minecraft:blindness 3 0 true
+
+effect give @s minecraft:resistance 2 4 true
