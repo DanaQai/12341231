@@ -1,0 +1,20 @@
+# LuckPerms Setup Commands for Races Datapack
+# Run these commands on your server console or as a server operator
+
+# Create suffix groups for each race
+perms group apisapien create
+perms group dwarf create
+perms group elf create
+perms group undead create
+perms group ogre create
+
+# Set display names/suffixes for each race
+perms group apisapien meta set suffix "&b[Apisapien]"
+perms group dwarf meta set suffix "&e[Dwarf]"
+perms group elf meta set suffix "&a[Elf]"
+perms group undead meta set suffix "&8[Undead]"
+perms group ogre meta set suffix "&c[Ogre]"
+
+# To assign a player to a race group, use:
+# perms user [player] parent add [race]
+# Example: perms user Steve parent add apisapien
