@@ -1,7 +1,0 @@
-# Apisapiens (Пчелородные)
-# -10% урона от падения, иммунитет пчелам, мёд восстанавливает еду
-
-effect give @s minecraft:slow_falling 2 0 true
-effect give @s minecraft:resistance 2 4 true
-
-execute as @e[type=minecraft:bee,distance=..30] if @s[nbt={AngryAt:[I;@s]}] run data remove entity @s AngryAt
