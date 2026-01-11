@@ -1,6 +1,0 @@
-# Dwarves (Дворфы)
-# Ночное зрение, слепота на солнце
-
-execute if time query daytime matches 0..11999 run effect give @s minecraft:night_vision 3 0 true
-execute if time query daytime matches 12000..23999 run effect give @s minecraft:blindness 3 0 true
-execute if time query daytime matches 12000..23999 run effect give @s minecraft:nausea 3 0 true
